@@ -1,0 +1,11 @@
+{
+  "name": "gaokao-volunteer-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 5173",
+    "generate:data": "node scripts/generate-catalog.js"
+  },
+  "description": "移动端大学生志愿报考查询、AI推荐报告与数据后台管理原型。",
+  "license": "UNLICENSED"
+}
